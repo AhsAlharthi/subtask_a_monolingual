@@ -6,6 +6,6 @@ run the following command:
 pip install -r requirements.txt
 
 ## Running the code
-```bash
+```python
 python cnn_roberta.py --training_data=path/to/train/data.jsonl --dev_data=path/to/dev/data.jsonl --output_file=path/to/output.jsonl
 
