@@ -4,8 +4,8 @@ The model is a CNN layer that takes the output of RoBERTa embeddings to classify
 run the following command:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Running the code
 ```python
 python cnn_roberta.py --training_data=path/to/train/data.jsonl --dev_data=path/to/dev/data.jsonl --output_file=path/to/output.jsonl
-
+```
